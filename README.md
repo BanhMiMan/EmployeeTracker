@@ -6,4 +6,5 @@ Here is my Employee Tracker using mysql and inquirer. When installing the app ma
 ## References
 
 
-## Git Repo and Video # EmployeeTracker
+## Git Repo and Video
+
