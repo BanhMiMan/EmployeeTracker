@@ -14,20 +14,19 @@ const connection = mysql.createConnection({
     });  
 
 
-
+const  departmentTableName     =  "department";
 const  employeeTableName       =  "employee";
 const  roleTableName           =  "role";
-const  departmentTableName     =  "department";
 
 
 function mainMenu() {
+    const  inq_viewAllDepartments  =  "View All Departments";
+    const  inq_addDepartment       =  "Add Department";
     const  inq_viewAllEmployees    =  "View All Employees";
-    const  inq_updateEmployeeRole  =  "Update Employee Role";
     const  inq_addEmployee         =  "Add Employee";
     const  inq_viewAllRoles        =  "View All Roles";
     const  inq_addRole             =  "Add Role";
-    const  inq_viewAllDepartments  =  "View All Departments";
-    const  inq_addDepartment       =  "Add Department";
+    const  inq_updateEmployeeRole  =  "Update Employee Role";
     const  inq_Quit                =  "Quit";
 
     inquirer.prompt([
